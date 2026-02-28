@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>등대독서회 | (주)제주비 임직원 독서동호회</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), 
+                        url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-blue-900 flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                        등대독서회
+                    </span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-slate-600 hover:text-blue-900 font-medium">소개</a>
+                    <a href="#program" class="text-slate-600 hover:text-blue-900 font-medium">프로그램</a>
+                    <a href="#books" class="text-slate-600 hover:text-blue-900 font-medium">추천도서</a>
+                    <a href="#join" class="bg-blue-900 text-white px-5 py-2 rounded-full hover:bg-blue-800 transition">가입하기</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient h-screen flex items-center justify-center text-center text-white pt-16">
+        <div class="px-4">
+            <h2 class="text-amber-400 text-xl md:text-2xl mb-4 font-medium">지식의 바다에서 길을 잃지 않도록</h2>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">매주 금요일 11시,<br>당신의 성장이 시작되는 곳</h1>
+            <p class="text-lg md:text-xl mb-10 text-slate-200 max-w-2xl mx-auto">
+                (주)제주비 임직원들의 지적 쉼터 '등대독서회'에서<br class="hidden md:block">
+                책과 함께 더 넓은 세상을 만나보세요.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#join" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">멤버십 신청하기</a>
+                <a href="#about" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-lg font-bold text-lg transition">활동 자세히 보기</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">책이라는 등대로 내일을 비춥니다</h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto"></div>
+                <p class="mt-6 text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                    업무라는 망망대해에서 잠시 닻을 내리고,<br>서로의 인사이트를 나누며 개인과 조직의 동반 성장을 꿈꿉니다.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Value 1 -->
+                <div class="p-8 bg-slate-50 rounded-2xl text-center card-hover border border-slate-100 shadow-sm">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-900 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.674a1 1 0 00.922-.617l2.108-4.742A1 1 0 0016.446 10h-2.108l.922-4.617a1 1 0 00-.922-1.383H9.663a1 1 0 00-.922 1.383L9.663 10H7.554a1 1 0 00-.922 1.641l2.108 4.742a1 1 0 00.922.617z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Insight (통찰)</h3>
+                    <p class="text-slate-600">혼자 읽을 때보다 함께 나눌 때 더욱 깊어지는 지혜와 새로운 관점을 발견합니다.</p>
+                </div>
+                <!-- Value 2 -->
+                <div class="p-8 bg-slate-50 rounded-2xl text-center card-hover border border-slate-100 shadow-sm">
+                    <div class="w-16 h-16 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Connection (연결)</h3>
+                    <p class="text-slate-600">부서와 직급을 넘어 책이라는 공통 주제로 소통하는 수평적인 사내 네트워크를 형성합니다.</p>
+                </div>
+                <!-- Value 3 -->
+                <div class="p-8 bg-slate-50 rounded-2xl text-center card-hover border border-slate-100 shadow-sm">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Growth (성장)</h3>
+                    <p class="text-slate-600">지속적인 독서 습관을 통해 개인의 역량을 강화하고 창의적인 조직 문화를 만듭니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-8">Friday Routine<br><span class="text-blue-900 text-2xl">금요일 11:00 ~ 13:00</span></h2>
+                    <div class="space-y-8">
+                        <div class="flex gap-4">
+                            <div class="flex-none w-20 text-blue-900 font-bold">11:00</div>
+                            <div class="flex-grow pb-8 border-l-2 border-slate-200 pl-6 relative">
+                                <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-blue-900"></div>
+                                <h4 class="font-bold text-lg mb-2">런치 앤 러닝 (Lunch & Learning)</h4>
+                                <p class="text-slate-600">회사에서 지원하는 프리미엄 도시락과 함께 가벼운 일상 근황을 나눕니다.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex-none w-20 text-blue-900 font-bold">11:30</div>
+                            <div class="flex-grow pb-8 border-l-2 border-slate-200 pl-6 relative">
+                                <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-blue-900"></div>
+                                <h4 class="font-bold text-lg mb-2">딥 다이브 (Deep Dive)</h4>
+                                <p class="text-slate-600">이달의 선정 도서를 바탕으로 발제문에 대한 깊이 있는 토론과 생각을 공유합니다.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex-none w-20 text-blue-900 font-bold">12:30</div>
+                            <div class="flex-grow pl-6 relative">
+                                <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-blue-900"></div>
+                                <h4 class="font-bold text-lg mb-2">인사이트 공유</h4>
+                                <p class="text-slate-600">오늘의 한 줄 평을 남기고, 업무나 삶에 적용할 수 있는 액션 플랜을 정리합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Meeting space" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/1000x800?text=JejuBee+Lounge'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section id="books" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-2">이달의 선정 도서</h2>
+                    <p class="text-slate-600">등대지기들이 이번 달 함께 깊게 파고들 책입니다.</p>
+                </div>
+                <button class="text-blue-900 font-bold hover:underline flex items-center gap-1">
+                    역대 추천 도서 보기 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="bg-blue-50 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row gap-12 items-center">
+                <div class="w-full md:w-1/3 shadow-xl transform -rotate-3 card-hover">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Book cover" class="rounded-lg w-full" onerror="this.src='https://placehold.co/400x600?text=Selected+Book'">
+                </div>
+                <div class="w-full md:w-2/3">
+                    <span class="bg-blue-900 text-white px-3 py-1 rounded text-sm mb-4 inline-block uppercase tracking-wider">Book of the Month</span>
+                    <h3 class="text-3xl font-bold mb-4">인생의 파도를 타는 방법</h3>
+                    <div class="flex items-center gap-4 mb-6 text-slate-600 font-medium">
+                        <span>저자: 김성장</span>
+                        <span>분야: 자기계발/인문</span>
+                    </div>
+                    <p class="text-lg text-slate-700 leading-relaxed mb-8 italic">
+                        "변화가 거센 비즈니스 환경에서 흔들리지 않고 중심을 잡는 법에 대하여. (주)제주비 동료들과 함께 변화를 기회로 바꾸는 통찰력을 나누고 싶습니다."
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-sm">
+                        <div class="bg-white p-4 rounded-xl">
+                            <span class="block font-bold text-blue-900 mb-1">참가 신청 마감</span>
+                            <span>매월 1일</span>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl">
+                            <span class="block font-bold text-blue-900 mb-1">토론일자</span>
+                            <span>매주 금요일</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="py-24 bg-blue-900 text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">등대의 불빛을 더 밝게<br>만들어줄 당신을 기다립니다</h2>
+                    <p class="text-blue-100 mb-12 text-lg">
+                        함께 읽고, 나누고, 성장하고 싶은 (주)제주비 임직원이라면 누구나 환영합니다.
+                        주저하지 말고 문을 두드려주세요.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-blue-800 rounded-lg flex items-center justify-center text-amber-500 flex-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">책을 다 못 읽었는데 괜찮나요?</h4>
+                                <p class="text-blue-200">네! 11시 런치 타임에 제공되는 핵심 요약본을 통해 누구나 대화에 참여할 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-blue-800 rounded-lg flex items-center justify-center text-amber-500 flex-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">매주 참석해야 하나요?</h4>
+                                <p class="text-blue-200">자율적인 참여를 권장합니다. 하지만 매주 금요일의 인사이트를 놓치면 아쉬우실 거예요!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white text-slate-900 p-8 rounded-3xl shadow-2xl">
+                    <h3 class="text-2xl font-bold mb-6">가입 신청서</h3>
+                    <form id="applyForm" class="space-y-4" onsubmit="event.preventDefault(); showMessage();">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">성함</label>
+                            <input type="text" required placeholder="홍길동" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-900 outline-none transition">
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-bold mb-2">부서</label>
+                                <input type="text" required placeholder="기획팀" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-900 outline-none transition">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold mb-2">사번</label>
+                                <input type="text" required placeholder="2024001" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-900 outline-none transition">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">참여 동기</label>
+                            <textarea rows="3" placeholder="등대독서회에 함께하고 싶은 이유를 적어주세요." class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-900 outline-none transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-white font-bold py-4 rounded-xl transition shadow-lg mt-4">신청 완료하기</button>
+                    </form>
+                    <div id="successMessage" class="hidden mt-4 p-4 bg-green-100 text-green-700 rounded-xl text-center font-bold">
+                        신청이 성공적으로 접수되었습니다!<br>확인 후 연락드리겠습니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex justify-center items-center gap-2 mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+                <span class="text-white font-bold text-xl uppercase tracking-tighter">Lighthouse Reading Club</span>
+            </div>
+            <p class="mb-4">(주)제주비 사내 동호회 지원 프로그램의 일환으로 운영됩니다.</p>
+            <p class="text-sm">© 2024 JejuBee Lighthouse Reading Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById('applyForm').classList.add('hidden');
+            document.getElementById('successMessage').classList.remove('hidden');
+        }
+
+        // Navigation Highlight on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section, header');
+            const navLinks = document.querySelectorAll('nav a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id') || '';
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-blue-900');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('text-blue-900');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
